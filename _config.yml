@@ -16,7 +16,7 @@
 title: Ricardo Serathiuk
 email: ricardo@serathiuk.com
 description: Blog do Ricardo Serathiuk.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://serathiuk.com.br" # the base hostname & protocol for your site
 github_username:    serathiuk
 instagram_username: serathiuk

@@ -13,28 +13,30 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Ricardo Serathiuk
-email: ricardo@serathiuk.com
-description: > # Blog do Ricardo Serathiuk.
+title: "Hello. I'm Jami Gibbs."
+email: 'jami0821@gmail.com'
+description: "I'm a software developer and designer from Chicago creating useful things for the web."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: serathiuk
-github_username:  serathiuk
+url: "http://jamigibbs.github.io/phantom" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: 'jamigibbs'
+github_username: 'jamigibbs'
+medium_username: 'blog.jamigibbs.com'
 
 # Build settings
 markdown: kramdown
-theme: minima
-gems:
-  - jekyll-feed
+# theme: phantom # Uncomment once published to RubyGems
+plugins:
+  - jekyll-paginate
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+### Phantom settings
+paginate: 10
+footer_text: '© 2018 Jami Gibbs'
+admin_name: 'Jami Gibbs'
+google_analytics: "UA-9999999-99" # Update with your own tracking ID
+enable_contact: false
+
+#### Phantom Navigation menu
+enable_nav: true
+nav_item:
+  - { url: '/', text: 'Home' }
+  - { url: '/about', text: 'About' }

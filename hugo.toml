@@ -1,5 +1,5 @@
 baseURL = 'https://serathiuk.dev/'
-languageCode = 'en-us'
+languageCode = 'pt-BR'
 title = 'Ricardo Serathiuk'
 theme = 'typo'
 
@@ -11,7 +11,7 @@ tag = 'tags'
 
 [params]
 # Meta description
-description = "A Tech Blog"
+description = "Um blog de tecnologia"
 
 # Appearance settings
 theme = 'auto'
@@ -38,15 +38,11 @@ breadcrumbs = true
 
 # Social icons
 [[params.social]]
-name = "linkedin"
+name = "serathiuk"
 url = "https://www.linkedin.com/in/user/"
 
 [[params.social]]
-name = "medium"
-url = "https://medium.com/@user"
-
-[[params.social]]
-name = "github"
+name = "serathiuk"
 url = "https://github.com/user"
 
 # Main menu pages

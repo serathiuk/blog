@@ -38,12 +38,12 @@ breadcrumbs = true
 
 # Social icons
 [[params.social]]
-name = "serathiuk"
-url = "https://www.linkedin.com/in/user/"
+name = "linkedin"
+url = "https://www.linkedin.com/in/serathiuk/"
 
 [[params.social]]
-name = "serathiuk"
-url = "https://github.com/user"
+name = "github"
+url = "https://github.com/serathiuk"
 
 # Main menu pages
 [[params.menu]]

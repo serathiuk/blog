@@ -85,8 +85,8 @@ style = 'algol'
 [params.giscus]
 enable = true
 repo = "serathiuk/blog"
-repoid = "repoId"
+repoid = "R_kgDONB5hZw"
 category = "General"
-categoryid = "categoryId"
+categoryid = "DIC_kwDONB5hZ84CjgZ3"
 mapping = "pathname"
-theme = "preferred_color_scheme"
+theme = "dark"

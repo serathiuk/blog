@@ -35,7 +35,7 @@ url = "https://hachyderm.io/deck/@serathiuk"
 # Social icons
 [[params.social]]
 name = "bluesky"
-url = "https://www.linkedin.com/in/serathiuk/"
+url = "https://bsky.app/profile/serathi.uk"
 
 # Social icons
 [[params.social]]

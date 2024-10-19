@@ -80,3 +80,13 @@ url = "/sobre"
 [markup]
 [markup.highlight]
 style = 'algol'
+
+# Giscus comments
+[params.giscus]
+enable = true
+repo = "serathiuk/blog"
+repoid = "repoId"
+category = "General"
+categoryid = "categoryId"
+mapping = "pathname"
+theme = "preferred_color_scheme"

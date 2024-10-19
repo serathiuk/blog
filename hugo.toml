@@ -6,8 +6,6 @@ theme = 'typo'
 [taxonomies]
 tag = 'tags'
 
-# Google analytics code
-# googleAnalytics = "G-xxxxxxxxx"
 
 [params]
 # Meta description
@@ -15,14 +13,8 @@ description = "Um blog de tecnologia"
 
 # Appearance settings
 theme = 'auto'
-colorPalette = 'default'
+colorPalette = 'catpuccin'
 hideHeader = false
-
-# Intro on main page, content is markdown
-homeIntroTitle = 'Hi!'
-homeIntroContent = """
-intro here
-"""
 
 # Collection to display on home
 homeCollectionTitle = 'Posts'
@@ -36,6 +28,15 @@ listDateFormat = '2 Jan 2006'
 # Breadcrumbs
 breadcrumbs = true
 
+[[params.social]]
+name = "mastodon"
+url = "https://hachyderm.io/deck/@serathiuk"
+
+# Social icons
+[[params.social]]
+name = "bluesky"
+url = "https://www.linkedin.com/in/serathiuk/"
+
 # Social icons
 [[params.social]]
 name = "linkedin"
@@ -45,9 +46,26 @@ url = "https://www.linkedin.com/in/serathiuk/"
 name = "github"
 url = "https://github.com/serathiuk"
 
+[[params.social]]
+name = "instagram"
+url = "https://www.instagram.com/serathiuk"
+
+[[params.social]]
+name = "orcid"
+url = "https://orcid.org/0009-0005-6497-7835"
+
+[[params.social]]
+name = "lattes"
+url = "http://lattes.cnpq.br/7198675783826814"
+
+
+[[params.social]]
+name = "email"
+url = "mailto:blog@serathiuk.dev"
+
 # Main menu pages
 [[params.menu]]
-name = "home"
+name = "início"
 url = "/"
 
 [[params.menu]]
@@ -55,20 +73,10 @@ name = "posts"
 url = "/posts"
 
 [[params.menu]]
-name = "about"
-url = "/about"
+name = "sobre"
+url = "/sobre"
 
 # Syntax highligth on code blocks
 [markup]
 [markup.highlight]
 style = 'algol'
-
-# Giscus comments
-[params.giscus]
-enable = false
-repo = "user/repo"
-repoid = "repoId"
-category = "General"
-categoryid = "categoryId"
-mapping = "pathname"
-theme = "preferred_color_scheme"
